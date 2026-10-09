@@ -12,5 +12,5 @@ The goal is a small but complete teaching example, not a second implementation o
 ## Next improvements
 - [ ] Add a second host shape (for example, a worker service) only when it clarifies a distinct integration lesson.
 - [ ] Add a request-time credential provider example once the public contract is stable.
-- [ ] Add a safe structured-output example with explicit validation and no automatic execution.
+- [x] Add a safe structured-output host example with explicit parsing, field validation, and no automatic execution; see [Structured output](structured-output.md).
 - [ ] Keep every documented command verified by CI.
