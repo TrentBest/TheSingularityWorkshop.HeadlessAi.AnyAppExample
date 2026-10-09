@@ -1,6 +1,7 @@
 using System.Net;
 using System.Text;
 using TheSingularityWorkshop.HeadlessAi;
+using Xunit;
 
 namespace TheSingularityWorkshop.HeadlessAi.AnyAppExample.Tests;
 
