@@ -38,12 +38,15 @@ The default fake handler returns a known response without network access, secret
 
 ## 🟢 04 See it in a minute
 
-Prerequisite: .NET 8 SDK. From the repository root:
+Prerequisite: .NET 8 SDK. Until the HeadlessAi alpha package is published, clone its source beside this repository and then run the example:
 
 ```bash
+git clone --branch development https://github.com/TrentBest/TheSingularityWorkshop.HeadlessAi.git dependencies/HeadlessAi
 dotnet restore TheSingularityWorkshop.HeadlessAi.AnyAppExample.slnx
 dotnet run --project src/TheSingularityWorkshop.HeadlessAi.AnyAppExample
 ```
+
+The project automatically uses that source checkout when present. Once the referenced alpha package is available from NuGet, the source checkout is optional.
 
 Expected default output includes `Hello from the local HeadlessAi demonstration.` No API key or live network call is required for the default run.
 
