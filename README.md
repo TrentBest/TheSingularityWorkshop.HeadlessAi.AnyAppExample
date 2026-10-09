@@ -49,7 +49,7 @@ dotnet run --project src/TheSingularityWorkshop.HeadlessAi.AnyAppExample
 
 The project automatically uses that source checkout when present. Once the referenced alpha package is available from NuGet, the source checkout is optional.
 
-Expected default output includes `Hello from the local HeadlessAi demonstration.` No API key or live network call is required for the default run.
+Expected default output includes `Hello from the local HeadlessAi demonstration.` No API key or live network call is required for the default run. Want to interact? Follow [Play with the integration locally](docs/usage.md#play-with-the-integration-locally) to enter prompts into a deterministic local simulation—or opt into a real provider only after reading [Live mode](docs/live-mode.md).
 
 To use the live endpoint, follow [Live mode](docs/live-mode.md) first. Never commit a key or place it in a checked-in settings file.
 
