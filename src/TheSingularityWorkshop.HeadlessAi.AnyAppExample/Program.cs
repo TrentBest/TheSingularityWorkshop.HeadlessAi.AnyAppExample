@@ -72,7 +72,7 @@ internal static class Program
                 }
                 catch (HeadlessAiHttpException ex)
                 {
-                    Console.Error.WriteLine($"Endpoint returned HTTP {(int)ex.StatusCode}. Response excerpts can contain sensitive data; inspect them deliberately.");
+                    Console.Error.WriteLine($"Endpoint returned HTTP {ex.StatusCode?.ToString() ?? "unknown"}. Response excerpts can contain sensitive data; inspect them deliberately.");
                 }
                 catch (HttpRequestException)
                 {
