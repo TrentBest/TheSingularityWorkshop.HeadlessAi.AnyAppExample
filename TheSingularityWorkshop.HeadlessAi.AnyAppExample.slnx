@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TheSingularityWorkshop.HeadlessAi.AnyAppExample/TheSingularityWorkshop.HeadlessAi.AnyAppExample.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TheSingularityWorkshop.HeadlessAi.AnyAppExample.Tests/TheSingularityWorkshop.HeadlessAi.AnyAppExample.Tests.csproj" />
+  </Folder>
+</Solution>
