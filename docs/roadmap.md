@@ -14,3 +14,4 @@ The goal is a small but complete teaching example, not a second implementation o
 - [ ] Add a request-time credential provider example once the public contract is stable.
 - [x] Add a safe structured-output host example with explicit parsing, field validation, and no automatic execution; see [Structured output](structured-output.md).
 - [x] Keep every documented command verified by CI; the deterministic example command is executed by the build workflow.
+- [x] Add an opt-in interactive prompt loop for a no-credential local simulation, with an explicitly separate live-provider mode.
