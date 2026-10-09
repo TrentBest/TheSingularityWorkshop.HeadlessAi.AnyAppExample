@@ -7,11 +7,12 @@
 3. [Architecture](docs/architecture.md) — the boundary between host and library.
 4. [Live mode](docs/live-mode.md) — explicit external-provider opt-in.
 5. [Testing](docs/testing.md) — the guarantees provided by fixtures and CI.
-6. [Repository map](docs/repository-map.md) — where files and responsibilities live.
-7. [Continuation brief](docs/CONTINUATION_BRIEF.md) — current status and next steps.
-8. [Security policy](SECURITY.md) — safe use and reporting.
-9. [Contributing](CONTRIBUTING.md) — local verification and contribution rules.
-10. [Changelog](CHANGELOG.md) — notable repository changes.
+6. [Structured output](docs/structured-output.md) — parse and validate proposals without granting them authority.
+7. [Repository map](docs/repository-map.md) — where files and responsibilities live.
+8. [Continuation brief](docs/CONTINUATION_BRIEF.md) — current status and next steps.
+9. [Security policy](SECURITY.md) — safe use and reporting.
+10. [Contributing](CONTRIBUTING.md) — local verification and contribution rules.
+11. [Changelog](CHANGELOG.md) — notable repository changes.
 
 ## Documentation authority
 
