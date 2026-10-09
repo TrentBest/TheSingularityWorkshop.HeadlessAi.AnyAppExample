@@ -34,6 +34,11 @@ jobs:
       - name: Test with coverage
         working-directory: example
         run: dotnet test TheSingularityWorkshop.HeadlessAi.AnyAppExample.slnx --configuration Release --no-build --collect:"XPlat Code Coverage;Format=cobertura" --results-directory ./TestResults
+      - name: Smoke-test deterministic example
+        working-directory: example
+        env:
+          HEADLESSAI_LIVE: "false"
+        run: dotnet run --project src/TheSingularityWorkshop.HeadlessAi.AnyAppExample --configuration Release --no-build
       - name: Prepare coverage report
         shell: bash
         working-directory: example
