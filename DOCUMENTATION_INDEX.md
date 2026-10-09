@@ -2,15 +2,19 @@
 
 ## Recommended path
 
-1. [README](README.md) — the purpose, shortest proof, and links.
+1. [README](README.md) — purpose, first-minute proof, and boundaries.
 2. [Usage](docs/usage.md) — build and run the deterministic example.
 3. [Architecture](docs/architecture.md) — the boundary between host and library.
 4. [Live mode](docs/live-mode.md) — explicit external-provider opt-in.
 5. [Testing](docs/testing.md) — the guarantees provided by fixtures and CI.
-6. [Roadmap](docs/roadmap.md) — remaining educational improvements.
+6. [Repository map](docs/repository-map.md) — where files and responsibilities live.
+7. [Continuation brief](docs/CONTINUATION_BRIEF.md) — current status and next steps.
+8. [Security policy](SECURITY.md) — safe use and reporting.
+9. [Contributing](CONTRIBUTING.md) — local verification and contribution rules.
+10. [Changelog](CHANGELOG.md) — notable repository changes.
 
 ## Documentation authority
 
-The [FSM_COS Documentation Standard](https://github.com/TrentBest/TheSingularityWorkshop.FSM_COS/blob/development/DOCUMENTATION_STANDARD.md) defines the shared reader journey and editorial goals. [HeadlessAi](https://github.com/TrentBest/TheSingularityWorkshop.HeadlessAi) is authoritative for library contracts; this repository is authoritative for this example's host wiring.
+This repository follows the local [Documentation Standard](DOCUMENTATION_STANDARD.md), which records how the shared [FSM_COS Documentation Standard](https://github.com/TrentBest/TheSingularityWorkshop.FSM_COS/blob/development/DOCUMENTATION_STANDARD.md) applies here. [HeadlessAi](https://github.com/TrentBest/TheSingularityWorkshop.HeadlessAi) is authoritative for library contracts; this repository is authoritative for this example's host wiring.
 
 Source and tests define current behavior. A roadmap item is not an implemented feature.
