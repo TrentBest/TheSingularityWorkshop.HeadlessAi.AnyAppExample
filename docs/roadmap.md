@@ -1,0 +1,16 @@
+# Roadmap
+
+The goal is a small but complete teaching example, not a second implementation of HeadlessAi.
+
+## Initial baseline
+- [x] Deterministic local demonstration without credentials or external network.
+- [x] Optional explicitly enabled live endpoint path.
+- [x] Separate test project with fixture-backed contract checks.
+- [x] Guided docs for use, boundaries, live mode, and testing.
+- [x] CI build/test/coverage workflow with package publishing absent.
+
+## Next improvements
+- [ ] Add a second host shape (for example, a worker service) only when it clarifies a distinct integration lesson.
+- [ ] Add a request-time credential provider example once the public contract is stable.
+- [ ] Add a safe structured-output example with explicit validation and no automatic execution.
+- [ ] Keep every documented command verified by CI.
