@@ -5,4 +5,6 @@
   </a>
 </p>
 
-# TheSingularityWorkshop.HeadlessAi.AnyAppExample
+# ✳️ 00 TheSingularityWorkshop.HeadlessAi.AnyAppExample
+
+This README follows the Workshop's shared [Documentation Standard](https://github.com/TrentBest/TheSingularityWorkshop.FSM_COS/blob/master/DOCUMENTATION_STANDARD.md), while keeping this repository's own purpose and implementation authoritative.
