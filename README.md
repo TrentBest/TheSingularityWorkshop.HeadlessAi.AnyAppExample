@@ -5,6 +5,7 @@
 [![Build](https://github.com/TrentBest/TheSingularityWorkshop.HeadlessAi.AnyAppExample/actions/workflows/build.yml/badge.svg?branch=development)](https://github.com/TrentBest/TheSingularityWorkshop.HeadlessAi.AnyAppExample/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+[![Sith Policy](assets/sith-policy.svg)](https://github.com/TrentBest/TheSingularityWorkshop.HeadlessAi.AnyAppExample/actions/workflows/sith-policy.yml)
 <p align="center"><img src="docs/assets/headlessai-anyapp-flow.svg" alt="An application supplies intent to HeadlessAi, which invokes a configured endpoint and returns normalized output; the host remains responsible for decisions and actions." width="100%"></p>
 <p align="center"><em>A runnable host application, a controlled endpoint, and no hidden agent magic.</em></p>
 
