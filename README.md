@@ -41,7 +41,7 @@ The default fake handler returns a known response without network access, secret
 
 ## 🟢 04 See it in a minute
 
-Prerequisite: .NET 8 SDK. Until the HeadlessAi alpha package is published, clone its source beside this repository and then run the example:
+Prerequisite: .NET 10 SDK. Until the HeadlessAi alpha package is published, clone its source beside this repository and then run the example:
 
 ```bash
 mkdir -p dependencies
